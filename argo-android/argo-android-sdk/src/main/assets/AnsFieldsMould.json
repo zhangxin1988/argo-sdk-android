@@ -1,0 +1,109 @@
+{
+  "base": {
+    "outer": [
+      "appid",
+      "xwho",
+      "xwhat",
+      "xwhen",
+      "xcontext"
+    ],
+    "xcontext": [
+      "$lib",
+      "$lib_version",
+      "$platform",
+      "$debug",
+      "$is_login"
+    ]
+  },
+  "$startup": {
+    "xcontext": [
+      "$channel",
+      "$time_zone",
+      "$manufacturer",
+      "$app_version",
+      "$model",
+      "$os",
+      "$os_version",
+      "$network",
+      "$carrier_name",
+      "$screen_width",
+      "$screen_height",
+      "$brand",
+      "$language",
+      "$is_first_day",
+      "$session_id",
+      "$is_first_time",
+      "$is_from_background"
+    ]
+  },
+  "$end": {
+    "xcontext": [
+      "$channel",
+      "$time_zone",
+      "$manufacturer",
+      "$app_version",
+      "$model",
+      "$os",
+      "$os_version",
+      "$network",
+      "$carrier_name",
+      "$screen_width",
+      "$screen_height",
+      "$brand",
+      "$language",
+      "$is_first_day",
+      "$session_id"
+    ]
+  },
+  "$track": {
+    "xcontext": [
+      "$channel",
+      "$time_zone",
+      "$manufacturer",
+      "$app_version",
+      "$model",
+      "$os",
+      "$os_version",
+      "$network",
+      "$carrier_name",
+      "$screen_width",
+      "$screen_height",
+      "$brand",
+      "$language",
+      "$is_first_day",
+      "$session_id",
+      "$pagename"
+    ]
+  },
+  "$pageview": {
+    "xcontext": [
+      "$channel",
+      "$time_zone",
+      "$manufacturer",
+      "$app_version",
+      "$model",
+      "$os",
+      "$os_version",
+      "$network",
+      "$carrier_name",
+      "$screen_width",
+      "$screen_height",
+      "$brand",
+      "$language",
+      "$is_first_day",
+      "$session_id"
+    ]
+  },
+  "$alias": {
+    "xcontext": [
+      "$imei",
+      "$mac"
+    ]
+  },
+  "$profile": {
+    "xcontext": [
+      "$imei",
+      "$mac"
+    ]
+  }
+}

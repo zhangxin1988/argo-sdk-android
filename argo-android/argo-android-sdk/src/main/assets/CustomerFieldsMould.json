@@ -1,0 +1,27 @@
+{
+//  "base": {
+//    "outer": [
+//      "xcoordinate"
+//    ],
+//    "xcontext": [
+//      "$appName"
+//    ]
+//  },
+//  "$startup": {
+//    "outer": [
+//      "xwhere"
+//    ],
+//    "xcontext": [
+//      "$duration"
+//    ]
+//  },
+//  "$test": {
+//    "outer": [
+//      "aaaaa"
+//    ],
+//    "xcontext": [
+//      "$os",
+//      "ooooooo"
+//    ]
+//  }
+}

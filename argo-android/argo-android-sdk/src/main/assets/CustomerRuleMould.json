@@ -1,0 +1,38 @@
+{
+//  "ReservedKeywords": [
+//    "xwhere"
+//  ],
+//  "xwhere": {
+//    "valueType": 0,
+//    "value": "getLocation",
+//    "required": true,
+//    "checkFuncList": [
+//      "isValidLocation"
+//    ]
+//  },
+//  "appid": {
+//    "valueType": 1,
+//    "value": "100000000",
+//    "required": true
+//  },
+//  "xcontext": {
+//    "$appName": {
+//      "valueType": 1,
+//      "value": "iOS",
+//      "required": true,
+//      "checkFuncList": [
+//        "customerFunc"
+//      ]
+//    },
+//    "$language": {
+//      "valueType": 1,
+//      "value": "object-c",
+//      "required": true
+//    },
+//    "$is_first_day": {
+//      "valueType": 0,
+//      "value": "validFirstDay",
+//      "required": true
+//    }
+//  }
+}

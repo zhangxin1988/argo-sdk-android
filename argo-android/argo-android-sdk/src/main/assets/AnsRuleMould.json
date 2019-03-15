@@ -1,0 +1,184 @@
+{
+  "ReservedKeywords": [
+    "xwhat",
+    "xwhen",
+    "xwho",
+    "appid",
+    "xcontext",
+    "$lib",
+    "$lib_version",
+    "$platform",
+    "$is_login",
+    "$debug",
+    "$imei",
+    "$mac",
+    "$session_id",
+    "$first_visit_time"
+  ],
+  "appid": {
+    "valueType": 0,
+    "value": "getAppId",
+    "required": true,
+    "checkFuncList": []
+  },
+  "xwho": {
+    "valueType": 0,
+    "value": "getUserId",
+    "required": true
+  },
+  "xwhen": {
+    "valueType": 0,
+    "value": "getCurrentTime",
+    "required": true
+  },
+  "xwhat": {
+    "valueType": 2,
+    "value": "",
+    "required": true
+  },
+  "$track": {
+    "valueType": 2,
+    "value": "",
+    "checkFuncList": [
+      "checkEventName"
+    ]
+  },
+  "xcontext": {
+    "additional": {
+      "userKeysLimit": 100,
+      "allKeysLimit": 100
+    },
+    "contextKey": {
+      "checkFuncList": [
+        "checkKey"
+      ]
+    },
+    "contextValue": {
+      "checkFuncList": [
+        "checkValue"
+      ]
+    },
+
+    "$lib": {
+      "valueType": 1,
+      "value": "Android",
+      "required": true
+    },
+    "$lib_version": {
+      "valueType": 0,
+      "value": "getLibVersion",
+      "required": true
+    },
+    "$platform": {
+      "valueType": 1,
+      "value": "Android",
+      "required": true
+    },
+    "$debug": {
+      "valueType": 0,
+      "value": "getDebugMode",
+      "required": true
+    },
+    "$is_login": {
+      "valueType": 0,
+      "value": "getLogin",
+      "required": true
+    },
+    "$is_first_time": {
+      "valueType": 0,
+      "value": "isFirstTime",
+      "required": true
+    },
+    //    "$is_from_background": {
+    //      "valueType": 0,
+    //      "value": "getFromBackground",
+    //      "required": true
+    //    },
+    "$channel": {
+      "valueType": 0,
+      "value": "getChannel",
+      "required": true
+    },
+    "$time_zone": {
+      "valueType": 0,
+      "value": "getTimeZone",
+      "required": true
+    },
+    "$manufacturer": {
+      "valueType": 0,
+      "value": "getManufacturer",
+      "required": true
+    },
+    "$app_version": {
+      "valueType": 0,
+      "value": "getVersionName",
+      "required": true
+    },
+    "$model": {
+      "valueType": 0,
+      "value": "getDeviceModel",
+      "required": true
+    },
+    "$os": {
+      "valueType": 1,
+      "value": "Android",
+      "required": true
+    },
+    "$os_version": {
+      "valueType": 0,
+      "value": "getOSVersion",
+      "required": true
+    },
+    "$network": {
+      "valueType": 0,
+      "value": "getNetwork",
+      "required": true
+    },
+    "$carrier_name": {
+      "valueType": 0,
+      "value": "getCarrierName",
+      "required": true
+    },
+    "$screen_width": {
+      "valueType": 0,
+      "value": "getScreenWidth",
+      "required": true
+    },
+    "$screen_height": {
+      "valueType": 0,
+      "value": "getScreenHeight",
+      "required": true
+    },
+    "$brand": {
+      "valueType": 0,
+      "value": "getBrand",
+      "required": true
+    },
+    "$language": {
+      "valueType": 0,
+      "value": "getDeviceLanguage",
+      "required": true
+    },
+    "$is_first_day": {
+      "valueType": 0,
+      "value": "isFirstDay",
+      "required": true
+    },
+    "$session_id": {
+      "valueType": 0,
+      "value": "getSessionId",
+      "required": true
+    },
+    "$imei": {
+      "valueType": 0,
+      "value": "getIMEI",
+      "required": false
+    },
+    "$mac": {
+      "valueType": 0,
+      "value": "getMac",
+      "required": true
+    }
+  }
+}
+
